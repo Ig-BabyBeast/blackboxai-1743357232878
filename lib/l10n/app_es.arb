@@ -1,0 +1,15 @@
+{
+  "appTitle": "SupplyMate",
+  "login": "Iniciar sesión",
+  "signup": "Registrarse",
+  "chat": "Chat",
+  "online": "En línea",
+  "offline": "Desconectado",
+  "subjects": "Materias",
+  "findPartners": "Encontrar compañeros",
+  "messages": "Mensajes",
+  "settings": "Configuración",
+  "@offline": {
+    "description": "Estado para usuarios desconectados"
+  }
+}
