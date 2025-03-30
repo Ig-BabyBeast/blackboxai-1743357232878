@@ -1,0 +1,35 @@
+name: supply_mate
+description: A peer matching app for students with academic backlogs
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.8.1
+  cloud_firestore: ^4.10.0
+  connectivity_plus: ^5.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  google_maps_flutter: ^2.3.1
+  geolocator: ^10.0.0
+  google_places_flutter: ^1.0.0
+  image_picker: ^0.8.7
+  fluttertoast: ^8.2.1
+  provider: ^6.0.5
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
