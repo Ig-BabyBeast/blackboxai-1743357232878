@@ -1,0 +1,11 @@
+{
+  "appTitle": "SupplyMate",
+  "login": "Login",
+  "signup": "Sign Up",
+  "chat": "Chat",
+  "online": "Online",
+  "offline": "Offline",
+  "@offline": {
+    "description": "Status for offline users"
+  }
+}
