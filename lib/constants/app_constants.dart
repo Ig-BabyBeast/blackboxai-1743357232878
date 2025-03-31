@@ -1,23 +1,29 @@
 class AppConstants {
-  static const String appName = 'SupplyMate';
-  static const String currentVersion = '1.0.0';
+  // App Info
+  static const String appName = "SupplyMate";
+  static const String currentVersion = "1.0.0";
   
-  // Firebase Collections
-  static const String usersCollection = 'users';
-  static const String chatRoomsCollection = 'chat_rooms';
-  static const String messagesCollection = 'messages';
+  // Colors
+  static const String primaryColor = "#FF5722";
+  static const String secondaryColor = "#607D8B";
+  static const String accentColor = "#FF9800";
   
-  // App Limits
-  static const int maxNearbyDistance = 5000; // meters
+  // Limits
+  static const int maxNearbyUsers = 50;
   static const int maxSubjects = 5;
   static const int maxMessageLength = 500;
   
-  // UI Constants
+  // Firebase
+  static const String usersCollection = "users";
+  static const String chatsCollection = "chats";
+  static const String messagesCollection = "messages";
+  
+  // UI
   static const double defaultPadding = 16.0;
   static const double cardBorderRadius = 12.0;
   static const double buttonHeight = 48.0;
   
-  // Timeouts
-  static const int connectionTimeout = 30; // seconds
-  static const int receiveTimeout = 30; // seconds
+  // Strings
+  static const String defaultErrorMessage = "Something went wrong";
+  static const String noConnectionMessage = "No internet connection";
 }
